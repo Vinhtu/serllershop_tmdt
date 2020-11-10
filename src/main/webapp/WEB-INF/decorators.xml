@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<decorators defaultdir="/decorators">
+	<exclude>
+		<pattern>/404-page.html</pattern>
+		<pattern>/api*</pattern>
+		<pattern>/dang-nhap</pattern>
+	</exclude>
+	<decorator name="admin" page="AdminHomeView.jsp">
+		<pattern> /admin*</pattern>
+	</decorator>
+	<decorator name="web" page="">
+		<pattern> /*</pattern>
+	</decorator>
+</decorators>
